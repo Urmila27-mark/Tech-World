@@ -1,0 +1,54 @@
+body {
+    background-color: #0a0a0a;
+    color: white;
+}
+.text-neon {
+    color: #00eaff;
+    text-shadow: 0 0 15px #00eaff;
+}
+.btn-outline-neon {
+    border: 2px solid #00eaff;
+    color: #00eaff;
+    transition: 0.3s ease-in-out;
+}
+.btn-outline-neon:hover {
+    background: #00eaff;
+    color: #0a0a0a;
+}
+.card {
+    background-color: #111;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px #00eaff;
+    cursor: pointer;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #00eaff;
+}
+.card img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+footer {
+    background: #000;
+}
+#news-ticker {
+    background: black;
+    color: #00eaff;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.dark-mode-toggle {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
